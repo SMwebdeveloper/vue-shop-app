@@ -1,0 +1,43 @@
+@import 'utils/vars';
+@import 'utils/reset';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:$mainFont;
+}
+
+
+a{
+    text-decoration:none;
+}
+
+input, textarea,select button{ border:1px solid #ccc}
+
+ul li {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    margin:0;
+}
+
+.content-wrapper {
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+
+.container{
+    width:100%;
+    flex:0 0 auto;
+    position:relative;
+    max-width:1200px;
+    margin:0 auto;
+}
